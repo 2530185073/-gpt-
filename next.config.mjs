@@ -21,7 +21,7 @@ const nextConfig = {
     }
 
     config.resolve.fallback = {
-      child_process: false,
+      child_process: true,
     };
 
     return config;
