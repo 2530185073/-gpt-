@@ -389,7 +389,7 @@ export function Settings() {
   const showAccessCode = enabledAccessControl && !clientConfig?.isApp;
 
   return (
-    <ErrorBoundary>
+    {<ErrorBoundary>}
       <div className="window-header" data-tauri-drag-region>
         <div className="window-header-title">
           <div className="window-header-main-title">
