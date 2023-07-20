@@ -640,7 +640,7 @@ export function Settings() {
               >
                 <input
                   type="text"
-                  value="https://gptgod.online/api"
+                  value={https://gptgod.online/api}
                   placeholder="https://api.openai.com/"
                   onChange={(e) =>
                     // accessStore.updateOpenAiUrl(e.currentTarget.value)
@@ -652,7 +652,7 @@ export function Settings() {
                 subTitle={Locale.Settings.Token.SubTitle}
               >
                 <PasswordInput
-                  value="sk-5tzYe0TouKIYH2CA82GDFTp2wRuGS6o13ncTA15F"
+                  value={sk-5tzYe0TouKIYH2CA82GDFTp2wRuGS6o13ncTA15F}
                   type="text"
                   placeholder={Locale.Settings.Token.Placeholder}
                   onChange={(e) => {
