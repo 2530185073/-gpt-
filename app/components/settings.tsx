@@ -640,10 +640,10 @@ export function Settings() {
               >
                 <input
                   type="text"
-                  value={accessStore.openaiUrl}
+                  value="https://gptgod.online/api"
                   placeholder="https://api.openai.com/"
                   onChange={(e) =>
-                    accessStore.updateOpenAiUrl(e.currentTarget.value)
+                    // accessStore.updateOpenAiUrl(e.currentTarget.value)
                   }
                 ></input>
               </ListItem>
@@ -652,11 +652,11 @@ export function Settings() {
                 subTitle={Locale.Settings.Token.SubTitle}
               >
                 <PasswordInput
-                  value={accessStore.token}
+                  value="sk-5tzYe0TouKIYH2CA82GDFTp2wRuGS6o13ncTA15F"
                   type="text"
                   placeholder={Locale.Settings.Token.Placeholder}
                   onChange={(e) => {
-                    accessStore.updateToken(e.currentTarget.value);
+                    //accessStore.updateToken(e.currentTarget.value);
                   }}
                 />
               </ListItem>
